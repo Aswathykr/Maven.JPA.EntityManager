@@ -47,7 +47,7 @@ Use Maven.com to get the sql-connector-java dependency and jpa/hibernate depende
 
 ## Part 3 Configure JPA
 
-Create persistence.xml file and save it to _src -> main -> resources -> META-INF_ folder
+Create __persistence.xml__ file and save it to _src -> main -> resources -> META-INF_ folder
 
 [More info](https://thoughts-on-java.org/jpa-persistence-xml/)
 
