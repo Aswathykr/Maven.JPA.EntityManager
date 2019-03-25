@@ -63,3 +63,16 @@ Service(s) should be able to perform at minimum the following:
 * update()
 * create()
 * delete()
+
+Use annotations such as @ManyToMany or @OneToMany to create relations within your Entities.
+
+```
+@Entity
+public class CD {
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    @OneToMany()
+    private Set<Musician> musicians = new HashSet<>();
+```
