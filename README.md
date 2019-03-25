@@ -10,13 +10,12 @@ Requirements
 
 1. Create a sql database using a RDBMS (MySql)
 2. Create at least 2 tables to represent some relational object data
-		* The tables should have 3-7 fields that represent the object
-		* Tables must relate to one another.
-		Examples:
-			* One to Many
-			* Many to Many
-			* One to One
-			* Many to One
+	* The tables should have 3-7 fields that represent the object
+	* Tables must relate to one another. Examples:
+		* One to Many
+		* Many to Many
+		* One to One
+		* Many to One
 3. Populate the database with records
 
 __example__
@@ -48,7 +47,7 @@ Use Maven.com to get the sql-connector-java dependency and jpa/hibernate depende
 
 ## Part 3 Configure JPA
 
-Create persistence.xml file and save it to _src -> main -> resources -> META-INF_ folder
+Create __persistence.xml__ file and save it to _src -> main -> resources -> META-INF_ folder
 
 [More info](https://thoughts-on-java.org/jpa-persistence-xml/)
 
